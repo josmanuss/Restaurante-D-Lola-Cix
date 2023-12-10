@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="shortcut icon" type="image/x-icon" href="img/logo_circulo.png">
+    <title>D'Lola Restaurante &copy;</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="img/logo-dlola2.jpg" width="100" height="100" class="img-fluid" alt="Logo D'Lola">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">
+                                <span class="fas fa-home"></span> Inicio
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="nosotros.html">
+                                <span class="fas fa-user-circle"></span> Nosotros
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span class="fas fa-handshake"></span> ¿Qué ofrecemos?
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <a class="dropdown-item" href="que_ofrecemos.html">Visitar Página</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="desayunos.html">Desayunos</a>
+                                <a class="dropdown-item" href="jugos.html">Jugos</a>
+                                <a class="dropdown-item" href="almuerzos.html">Almuerzos</a>
+                                <a class="dropdown-item" href="sandwiches.html">Sandwiches</a>
+                                <a class="dropdown-item" href="menu_economico.html">Menú Económico</a>
+                                <a class="dropdown-item" href="menu_ejecutivo.html">Menú Ejecutivo</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contactanos.html">
+                                <span class="fas fa-mail-bulk"></span> Contáctanos
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main style="padding:2rem;">
+        <section id="contacto-1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h2 class="text-center">Contáctanos:</h2>
+                        <p class="text-center">Dirección: Av. Leoncio Prado 1378 - Chiclayo</p>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.001408240475!2d-79.83579132609582!3d-6.76968056619843!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x904ceed5bd62eca1%3A0x952b6c1e2f3a1635!2sLeoncio%20Prado%201378%2C%20Chiclayo%2014001!5e0!3m2!1ses-419!2spe!4v1696032663203!5m2!1ses-419!2spe" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="info-contacto text-center">
+                            <form class="formulario-contacto-comentarios">
+                                <label for="nombre">Nombre:</label>
+                                <input type="text" id="nombre" name="nombre" class="form-control" placeholder="Tu nombre">
+                                <label for="correo">Correo Electrónico:</label>
+                                <input type="text" id="correo" name="correo" class="form-control" placeholder="Tu correo electrónico">
+                                <label for="comentarios">Comentarios:</label>
+                                <textarea id="comentarios" name="comentarios" rows="4" class="form-control" placeholder="Escribe tus comentarios aquí"></textarea>
+                    
+                                <div class="mt-3">
+                                    <button type="submit" class="btn btn-warning btn-block">Enviar</button>
+                                </div>
+                                <div class="mt-3">
+                                    <a href="https://api.whatsapp.com/send?phone=51943504048" class="btn btn-success btn-block" target="_blank" rel="noopener noreferrer">
+                                        <span class="fab fa-whatsapp"></span> WhatsApp
+                                    </a>
+                                </div>
+                                <div class="mt-3">
+                                    <div class="text-center">
+                                        <a href="https://www.facebook.com/dlolarestaurante/?locale=zh_CN" class="btn btn-primary btn-block mb-2" target="_blank" rel="noopener noreferrer">
+                                            <span class="fab fa-facebook"></span> Facebook
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="mt-3">
+                                    <a href="https://www.instagram.com/dlolarestaurante/" class="btn btn-danger btn-block mb-2" target="_blank" rel="noopener noreferrer">
+                                        <span class="fab fa-instagram"></span> Instagram
+                                    </a>
+                                </div>
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-light text-center py-3">
+        <p>Derechos Reservados &copy; 2023 D'Lola - Restaurante</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

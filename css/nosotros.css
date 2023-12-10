@@ -1,0 +1,25 @@
+@import url('index.css');
+
+.card {
+    margin-bottom: 20px;
+    border: none;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    background-color: #343a40;
+    color: #FFFF;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.lead {
+    font-size: 1.2em;
+}
+
+.value-item {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
